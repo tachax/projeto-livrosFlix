@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livrosflix</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+          Livrosflix
+        </h1>
+        <h2 class="page-title">Indicações de Livros</h2>
+        <br>
+        <label>Adicione aqui o link de um livro para recomendar!</label>
+        <br><br>
+        <div class="form-wrapper">
+          <input type="text" id="novoLivro" placeholder="insira o endereço da imagem">
+          <button type="submit" onclick="adicionarLivro()">Adicionar Livro</button>
+        </div>
+    
+        <p class="erro" id="erro">Seus livros aparecerão logo abaixo :)</p>
+    </div>
+   
+    <p id="indicacao"></p> 
+
+    <script src="main.js"></script>
+
+</body>
+</html>
